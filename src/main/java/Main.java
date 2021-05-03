@@ -47,8 +47,8 @@ public class Main {
 
             } else if (yourChoice.equals("D")) {
                 System.out.println("How much money do you want to put on deposit: ");
-                var debet = input.nextFloat();
-                System.out.println(bank.debetUser(debet));
+                var debit = input.nextFloat();
+                System.out.println(bank.debitUser(debit));
                 System.out.println("Your balance " + bank.getUserBalance()+
                         "\n");
 

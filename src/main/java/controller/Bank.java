@@ -31,7 +31,7 @@ public class Bank {
     }
 
     // method
-    public String debetUser(double amount) {
+    public String debitUser(double amount) {
         // System.out.println("Your balance " + getUserBalance());
         if (amount<=getUserBalance()){
             double newBalance = getUserBalance() - amount;
